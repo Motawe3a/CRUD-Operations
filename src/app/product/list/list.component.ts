@@ -18,4 +18,12 @@ export class ListComponent implements OnInit {
     this.products = this._ProductService.getAllProducts();
   }
 
+  viewProduct(product) {
+
+  }
+
+  deleteProduct(product) {
+
+  }
+
 }
