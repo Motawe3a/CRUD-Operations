@@ -1,0 +1,27 @@
+.action-label {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 10px;
+  &:hover {
+    background-color: #1e7e34;
+    color: white;
+  }
+}
+
+.fa-eye {
+  color: blue;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.fa-trash-o {
+  color: red;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
